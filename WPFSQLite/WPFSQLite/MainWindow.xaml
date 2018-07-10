@@ -13,13 +13,13 @@
         </Grid.ColumnDefinitions>
 
         <StackPanel Grid.Column="0" Margin="2 2 2 2">
-            <TextBlock Text="I'm a text block" Background="PaleVioletRed" Margin="1 1 1 1" Height="140"/>
-            <TextBox  Text="I'm a text box" Margin="1 1 1 1" Height="117" />
+            <TextBlock Text="I'm a text block" Background="PaleVioletRed" Margin="1 1 1 1" Height="233"/>
+            <TextBox  Text="I'm a text box" Margin="1 1 1 1" Height="81" />
         </StackPanel>
 
         <StackPanel Grid.Column="1" Margin="2 2 2 2">
-            <TextBlock  Text="This is not a text block" Margin="1 1 1 1" Background="WhiteSmoke" />
-            <TextBox  Text="Not even close to being a text box" Background="PaleGreen" Margin="1 1 1 1" Height="271"/>
+            <TextBlock  Text="This is not a text block" Margin="1 1 1 1" Background="WhiteSmoke" Height="189" />
+            <TextBox  Text="Not even close to being a text box" Background="PaleGreen" Margin="1 1 1 1" Height="189"/>
         </StackPanel>
         
     </Grid>
