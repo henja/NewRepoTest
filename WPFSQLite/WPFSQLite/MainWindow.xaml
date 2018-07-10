@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="3*" />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Margin="2 2 2 2">
+            <TextBlock Text="I'm a text block" Background="Aqua" Margin="1 1 1 1"/>
+            <TextBox  Text="I'm a text box" Margin="1 1 1 1" />
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Margin="2 2 2 2">
+            <TextBlock  Text="This is not a text block" Margin="1 1 1 1" Background="WhiteSmoke" />
+            <TextBox  Text="Not even close to being a text box" Background="DimGray" Margin="1 1 1 1"/>
+        </StackPanel>
         
     </Grid>
 </Window>
